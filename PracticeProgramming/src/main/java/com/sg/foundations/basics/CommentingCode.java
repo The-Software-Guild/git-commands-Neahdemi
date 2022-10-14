@@ -18,8 +18,8 @@ public class CommentingCode {
         System.out.println("..."); //or they can share like this
         
         //However if you put the //BEFORE a line of code 
-        // System.out.println("Then it is considered a comment ");
-        // System.out.println("and it won't execute!");
+        System.out.println(" If you put // before the code then it is considered a comment ");
+        System.out.println("and it won't execute!");
         
         /*
                 This is an example of a multi-line comment, which is useful if
