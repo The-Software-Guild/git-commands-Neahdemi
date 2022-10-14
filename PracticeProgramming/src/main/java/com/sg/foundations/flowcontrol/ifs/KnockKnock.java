@@ -12,6 +12,8 @@ public class KnockKnock {
 
         System.out.print("Knock Knock! Guess who!! ");
         String nameGuess = inputReader.nextLine();
+        // == compares the refernces of the variable where .equals() compares
+        //the values which is what you want
 
         if(nameGuess.equals("Marty McFly")){
             System.out.println("Hey! That's right! I'm back!");
