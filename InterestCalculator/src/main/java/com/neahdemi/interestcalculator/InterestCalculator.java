@@ -1,6 +1,5 @@
 package com.neahdemi.interestcalculator;
 import java.util.Scanner;
-//import java.math.RoundingMode;
 import java.text.DecimalFormat;
 /**
  *
@@ -18,7 +17,7 @@ public class InterestCalculator {
         System.out.println("What is the annual interest rate % growth?");
         double annualInterestRate = scanner.nextDouble();
         
-        // Initial amount of principal
+        // Initial amount of principal (original amount borrrowed)
         System.out.println("Initial amount of principal:");
         double currentBalance = scanner.nextDouble();
         
@@ -48,8 +47,8 @@ public class InterestCalculator {
             for (int i = 0; i < 4; i++){
                 currentBalance *= (1 + (quarterlyInterestRate / 100));
             }
-            System.out.println("Ended with $" + df.format(currentBalance));
-            System.out.println(" ");
+            System.out.println("Ended with $" + df.format(currentBalance) + "\n");
+            
         }
     }
 }
